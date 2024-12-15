@@ -1,0 +1,162 @@
+import React from 'react';
+import PageHeader from '../../components/PageHeader';
+
+export default function UniversityScale() {
+  return (
+    <div className="min-h-screen bg-black">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <PageHeader
+          title="University Scale Fusion"
+          description="Building the future of fusion science through accessible research devices"
+        />
+
+        {/* Historical Context */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold text-white mb-6">Evolution of Fusion Research</h2>
+          <div className="bg-gray-900 p-6 rounded-lg mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="text-gray-300">
+                <h3 className="text-xl text-hampton-blue mb-3">1950s - Early Days</h3>
+                <p>Many university-scale experiments laid the groundwork for fusion research, fostering innovation and training new scientists.</p>
+              </div>
+              <div className="text-gray-300">
+                <h3 className="text-xl text-hampton-blue mb-3">1980s - Scaling Up</h3>
+                <p>Push towards larger machines made fusion research less accessible to universities and students.</p>
+              </div>
+              <div className="text-gray-300">
+                <h3 className="text-xl text-hampton-blue mb-3">2020s - New Initiative</h3>
+                <p>Return to university-scale devices with modern technology enables broader participation and faster innovation.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Current Challenges */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold text-white mb-6">Why University Scale Matters</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-gray-900 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-white mb-4">Challenges with Large Facilities</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>High operational costs limit experimental time</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>Limited access for students and early-career researchers</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>Slower iteration cycles for testing new ideas</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>Reduced hands-on learning opportunities</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-gray-900 p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-white mb-4">University Scale Advantages</h3>
+              <ul className="space-y-3 text-gray-300">
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>Direct involvement in design and construction</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>Rapid prototyping and testing of new concepts</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>More experimental time for students</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-hampton-blue mr-2">•</span>
+                  <span>Cost-effective research and education</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Our Approach */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold text-white mb-6">Modern Solutions</h2>
+          <div className="bg-gray-900 p-6 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="text-xl font-bold text-white mb-4">Key Technologies</h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>Advanced numerical optimization</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>Additive manufacturing capabilities</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>High-temperature superconductors</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>Modern diagnostic systems</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-white mb-4">Educational Impact</h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>Hands-on experience with cutting-edge technology</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>International collaboration opportunities</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>Direct pathway to fusion careers</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-hampton-blue mr-2">•</span>
+                    <span>Building the next generation of fusion scientists</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Vision */}
+        <section>
+          <h2 className="text-2xl font-bold text-white mb-6">Our Vision</h2>
+          <div className="bg-gray-900 p-6 rounded-lg">
+            <p className="text-gray-300 mb-6">
+              By investing in university-scale fusion devices, we're creating an accessible platform for innovation 
+              and education. Our goal is to develop a network of small-scale stellarators that can accelerate fusion 
+              research while training the next generation of fusion scientists and engineers.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-300">
+              <div>
+                <h3 className="text-xl text-hampton-blue mb-3">Open Platform</h3>
+                <p>Creating an open, collaborative environment for stellarator design and optimization</p>
+              </div>
+              <div>
+                <h3 className="text-xl text-hampton-blue mb-3">Global Network</h3>
+                <p>Building connections between universities, research institutions and the fusion industry worldwide</p>
+              </div>
+              <div>
+                <h3 className="text-xl text-hampton-blue mb-3">Workforce Development</h3>
+                <p>Training 500+ skilled fusion scientists and engineers by 2030 coming from University Scale Experiments</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
